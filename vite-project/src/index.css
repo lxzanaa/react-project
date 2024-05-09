@@ -1,0 +1,143 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.padd-20 {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.header {
+    padding-top: 17px;
+    padding-bottom: 18px;
+    background-color: #101524;
+}
+
+.header__container {
+    max-width: 1240px;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header__logo img {
+    width: 44px;
+    height: 53px;
+    display: flex;
+}
+
+.header__list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    gap: 30px;
+}
+
+.header__link {
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0.2px;
+    color: #CECDCD;
+    text-decoration: none;
+}
+
+.header__link.active {
+    color: #FFFFFF;
+}
+
+.bars {
+    color: #FFFFFF;
+    cursor: pointer;
+    display: none;
+    font-size: 25px;
+}
+.x{
+    color: #FFFFFF;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.fa-solid:active {
+    opacity: 0.9;
+}
+
+.header__mobile {
+    padding-top: 17px;
+    padding-bottom: 18px;
+    background-color: #101524;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: none;
+    width: 100%;
+    height: 100vh;
+}
+.header__con{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+
+.header__mobile-container {
+    max-width: 1240px;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.header__mobile-logo img {
+    width: 44px;
+    height: 53px;
+    display: flex;
+}
+
+.header__mobile-list {
+    list-style: none;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+.header__mobile-item{
+    border-bottom: 1px solid #ffffffae;
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+.header__mobile-item:first-child{
+    border-top: 1px solid #ffffffae;
+    padding-top: 15px;
+}
+
+.header__mobile-link {
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0.2px;
+    color: #CECDCD;
+    text-decoration: none;
+}
+.header__mobile-link .active{
+    color: #FFFFFF;
+}
+
+
+@media (max-width: 600px) {
+    .header__list {
+        display: none;
+    }
+
+    .fa-solid {
+        display: block;
+    }
+    .header__mobile{
+        display: block;
+    }
+}

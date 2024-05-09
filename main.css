@@ -1,0 +1,77 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background-color: orange;
+}
+
+:root {
+  font-family: sans-serif;
+}
+
+.header {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.header .header__container {
+  max-width: 1240px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header .header__container .header__logo img {
+  display: flex;
+}
+.header .header__container .nav__list {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  list-style: none;
+}
+.header .header__container .nav__list .nav__link {
+  text-decoration: none;
+  font-family: sans-serif;
+  color: black;
+  font-size: 14px;
+}
+
+.hero {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.hero__container {
+  max-width: 1240px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.hero__title {
+  max-width: 900px;
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 72px;
+  line-height: 125%;
+  letter-spacing: 0em;
+  color: black;
+  margin-bottom: 44px;
+}
+.hero__about {
+  display: flex;
+  align-items: center;
+  gap: 41px;
+  justify-content: end;
+}
+.hero__about .hero__text {
+  max-width: 347px;
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.01em;
+  color: black;
+}/*# sourceMappingURL=main.css.map */
